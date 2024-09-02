@@ -26,3 +26,10 @@ let scoreAfterPenalty = calculateScore(100, 20);
 let scoreWithoutPenalty = calculateScore(200);
 console.log(scoreAfterPenalty);
 console.log(scoreWithoutPenalty);
+
+// void function
+function logMessage(message: string): void {
+    console.log(message);
+}
+
+logMessage("this is void!.");

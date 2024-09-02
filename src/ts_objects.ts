@@ -13,3 +13,4 @@ let items: {
 }[] = [book, pen, notebook];
 
 console.log(items);
+console.log(car);
